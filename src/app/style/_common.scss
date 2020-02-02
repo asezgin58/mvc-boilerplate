@@ -1,0 +1,22 @@
+/*
+ *
+ * COMMON
+ *
+ */
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  background-color: $body-bg-color;
+  position: relative;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+  }
+}

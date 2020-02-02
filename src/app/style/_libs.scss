@@ -1,0 +1,14 @@
+/*
+ *
+ * LIBS
+ *
+ */
+  // Bootstrap Overrides
+  $grid-columns: 12;
+  $grid-gutter-width: 20px;
+  
+  // FONT AWESOME
+  @import '../../../node_modules/@fortawesome/fontawesome-pro/css/all.css';
+  // BOOTSTRAP
+  @import '../../../node_modules/bootstrap/scss/bootstrap';
+  // UI KIT CSS import

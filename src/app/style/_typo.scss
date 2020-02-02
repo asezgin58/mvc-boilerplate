@@ -1,0 +1,188 @@
+/*
+ *
+ * TYPO
+ *
+ */
+
+html {
+  font-size: #{$html-fontSize}px;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  color: $body-text-color;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+
+em {
+  font-style: normal;
+  font-weight: 500;
+}
+
+blockquote {
+  margin: 0;
+}
+
+p {
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1em;
+  color: $body-text-color;
+
+  &:hover, &:focus, &:active, &:visited {
+    text-decoration: none;
+    color: $body-text-color;
+  }
+}
+
+// Sizes
+.fs-11 {
+  font-size: 11px !important;
+}
+
+.fs-12 {
+  font-size: 12px !important;
+}
+
+.fs-13 {
+  font-size: 13px !important;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+
+.fs-15 {
+  font-size: 15px !important;
+}
+
+.fs-16 {
+  font-size: 16px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-20 {
+  font-size: 20px !important;
+}
+
+.fs-21 {
+  font-size: 21px !important;
+}
+
+.fs-22 {
+  font-size: 22px !important;
+}
+
+.fs-25 {
+  font-size: 25px !important;
+}
+
+.fs-26 {
+  font-size: 26px !important;
+}
+
+.fs-30 {
+  font-size: 30px !important;
+}
+
+.fs-35 {
+  font-size: 35px !important;
+}
+
+.fs-40 {
+  font-size: 40px !important;
+}
+
+.fs-60 {
+  font-size: 60px !important;
+}
+
+.fs-70 {
+  font-size: 70px !important;
+}
+
+// Weights
+.fw-100 {
+  font-weight: 100 !important;
+}
+
+.fw-300 {
+  font-weight: 300 !important;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.fw-900 {
+  font-weight: 900 !important;
+}
+
+// Headings
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+h1, .h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h2, .h2, h3, .h3 {
+  color: #000;
+  margin-bottom: 12px;
+
+  &--lighter {
+    color: #000;
+  }
+}
+
+h2, .h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h3, .h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+h5, .h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+// Text decoration
+.td-underline {
+  text-decoration: underline;
+
+  &:hover, &:active, &:focus, &:visited {
+    text-decoration: underline
+  }
+}
+
+// font style
+.fst-italic {
+  font-style: italic;
+}
