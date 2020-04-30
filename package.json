@@ -62,7 +62,7 @@
     "@fortawesome/fontawesome-pro": "^5.8.2",
     "bootstrap": "^4.2.1",
     "detect-browser": "^4.1.0",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "multi-clamp": "^1.1.0",
     "popper.js": "^1.14.7",
     "slick-carousel": "^1.8.1",
