@@ -1,22 +1,9 @@
 /*
- * Styles Import
- */
-import './style/main.scss';
-
-/*
- * Helper Import
- */
-import {detect} from 'detect-browser';
-import {debounce} from 'throttle-debounce';
-
-/*
  *
  * Application Main
  *
  */
 const APP = {
-    browser: detect(),
-    debounce: debounce,
     initFunctions: {
         objectAssignPolyfill: function () {
             if (typeof Object.assign !== 'function') {
